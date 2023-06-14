@@ -1,7 +1,7 @@
 /* Universal styles */
 
 :root {
-  --max-width: 1440px;
+  --max-width: 1250px;
   --red: #af2020;
   --white: #ffffff;
   --yellow: #f2a63a;
@@ -154,6 +154,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .banner-content-container > div:first-child {
